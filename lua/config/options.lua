@@ -7,5 +7,5 @@ vim.opt.expandtab = true -- tabs are spaces, mainly because of python
 
 -- colorscheme
 vim.o.termguicolors = true
-vim.o.background = "dark"
-vim.cmd.colorscheme("catppuccin-macchiato")
+vim.o.background = 'dark'
+vim.cmd.colorscheme('catppuccin-macchiato')
