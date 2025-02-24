@@ -9,3 +9,6 @@ vim.opt.expandtab = true -- tabs are spaces, mainly because of python
 vim.o.termguicolors = true
 vim.o.background = 'dark'
 vim.cmd.colorscheme('catppuccin-macchiato')
+
+-- clipboard
+opt.clipboard:append("unnamedplus") -- use system clipboard as default register
