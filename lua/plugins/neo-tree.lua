@@ -83,7 +83,7 @@ return {
           },
         },
       })
-      vim.keymap.set('n', '\\', ':Neotree toggle<CR>', { noremap = true, silent = true })
+      vim.keymap.set('n', '\\', ':Neotree toggle .<CR>', { noremap = true, silent = true })
     end,
   },
 }
